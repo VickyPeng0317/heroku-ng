@@ -10,7 +10,7 @@
         "e2e": "ng e2e",
         "postinstall": "node scripts/tasks/pack.js",
         "start": "node scripts/express/server.js",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist/heroku-ng"
     },
     "private": true,
     "dependencies": {
